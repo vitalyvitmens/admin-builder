@@ -1,3 +1,7 @@
-import { UserEntity } from '@/entities/user'
+'use client'
 
-export default UserEntity.EntityPage
+import { userClient } from '@/entities/user/client'
+
+export default function Home() {
+  return <userClient.EntityPage />
+}

@@ -1,4 +1,4 @@
-import { AdminEntityConfig } from '@/admin-builder/entity-builder'
+import { AdminEntityConfig } from '@/admin-builder/server'
 
 export const entityConfig: AdminEntityConfig = {
   name: 'users',
