@@ -10,6 +10,11 @@ export const entityConfig: AdminEntityConfig = {
       title: 'Name',
     },
     {
+      type: 'text',
+      name: 'email',
+      title: 'Email',
+    },
+    {
       type: 'select',
       name: 'role',
       title: 'Role',
